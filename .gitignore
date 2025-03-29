@@ -1,0 +1,72 @@
+# Compiled binary files
+bin/
+obj/
+
+ApiProducts.Api/bin/
+ApiProducts.Api/obj/
+ApiProducts.Api/ApiProducts.Api.csproj.nuget.cache
+ApiProducts.Api/ApiProducts.Api.csproj.nuget.dgspec.json
+
+ApiProducts.Application/bin/
+ApiProducts.Application/obj/
+
+
+ApiProducts.Domain/bin/
+ApiProducts.Domain/obj/
+
+
+ApiProducts.Infrastructure/bin/
+ApiProducts.Infrastructure/obj/
+ApiProducts.Infrastructure/ApiProducts.Infrastructure.csproj.nuget.cache
+
+# Visual Studio files
+.vs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.ilk
+*.idb
+*.lib
+*.nupkg
+*.snupkg
+*.cache
+*.log
+*.csproj.user
+
+# NuGet packages
+packages/
+**/project.lock.json
+**/project.assets.json
+
+# Rider files
+.idea/
+*.sln.iml
+
+# ASP.NET & Blazor
+wwwroot/
+
+# Entity Framework
+Migrations/
+
+# Logs and temporary files
+logs/
+*.log
+*.tlog
+
+# Docker
+Dockerfile
+**/docker-compose*
+
+# Secrets and configurations
+appsettings.*.json
+secrets.json
+.env
